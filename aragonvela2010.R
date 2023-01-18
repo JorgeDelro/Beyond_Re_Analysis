@@ -1,6 +1,8 @@
 
-library(tidymodels)
+library(tidyverse)
 library(table1)
+library(effectsize)
+library(pwr)
 
 # data
 # N = 16
@@ -38,14 +40,39 @@ df %>%
   theme(legend.position = "top",
         legend.title = element_blank())
 
-# Welch Two Sample t-test
+# Boxplot - speed / arm
+df %>%
+  pivot_longer(cols = c("left_arm", "right_arm"),
+               names_to = "arm",
+               values_to = "speed") %>%
+  ggplot(aes(x = arm, y = speed)) +
+  geom_boxplot() +
+  labs(x = "Age (years)", y = expression(paste("Speed ", (m/s)^2))) +
+  scale_x_discrete(breaks = c("left_arm", "right_arm"),
+                   labels = c("left", "right")) +
+  theme_bw()
+
+
+# Paired t-test
 res_t_test <- t.test(x = df$left_arm,
                      y = df$right_arm,
                      alternative = "two.sided",
-                     paired = FALSE)
-res_t_test
+                     paired = TRUE)
+res_t_test$conf.int
 
-# Model Assumptions
+# Effect size - cohen d
+cohens_d(x = df$left_arm,
+         y = df$right_arm,
+         pooled_sd = TRUE,
+         paired = TRUE)
 
+# post-hoc power analysis
+pwr.t.test(
+  n = 16,
+  d = 2.80,
+  sig.level = 0.05,
+  type = "paired",
+  alternative = "two.sided"
+)
 
 
