@@ -19,6 +19,10 @@ Data: martinezmarti2016_db.csv
 Code: arnedillo2020.R
 Data: arnedillo2020_db.csv
 
+* Padilla-Moledo, C.; Fernández-Santos, J.R.; Izquierdo-Gómez, R.; Esteban-Cornejo, I.; Rio-Cozar, P.; Carbonell-Baeza, A.; Castro-Piñero, J. Physical Fitness and Self-Rated Health in Children and Adolescents: Cross-Sectional and Longitudinal Study. Int J Environ Res Public Health 2020, 17, https://doi:10.3390/ijerph17072413.
+* Code: padillamoledo2020.R
+* Data: padillamoledo2020_db.csv
+
 * Fernandez-Santos, JR; Gutierrez-Manzanedo, JV; Arroyo-Garcia, P; Izquierdo-Jurado, J; Gonzalez-Montesinos, JL. (2022). Potential Energy as an Alternative for Assessing Lower Limb Peak Power in Children: A Bayesian Hierarchical Analysis. *International Journal of Environmental Research and Public Health*. 19, 6300. https://doi.org/10.3390/ijerph19106300
 Code: fernandezsantos2022.R
 Data: fernandezsantos2022_db.csv
