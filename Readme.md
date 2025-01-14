@@ -15,7 +15,7 @@ Code: gonzalezmontesinos2010.R
 Code: martinezmarti2016.R
 Data: martinezmarti2016_db.csv
 
-* Arnedillo, A.; Gonzalez-Montesinos, J.L.; Fernandez-Santos, J.R.; Vaz-Pardal, C.; España-Domínguez, C.; Ponce-González, J.G.; Cuenca-García, M. Effects of a Rehabilitation Programme with a Nasal Inspiratory Restriction Device on Exercise Capacity and Quality of Life in COPD. Int J Environ Res Public Health 2020, 17, doi:10.3390/ijerph17103669.
+* Arnedillo, A.; Gonzalez-Montesinos, J.L.; Fernandez-Santos, J.R.; Vaz-Pardal, C.; España-Domínguez, C.; Ponce-González, J.G.; Cuenca-García, M. Effects of a Rehabilitation Programme with a Nasal Inspiratory Restriction Device on Exercise Capacity and Quality of Life in COPD. Int J Environ Res Public Health 2020, 17, https://doi:10.3390/ijerph17103669.
 Code: arnedillo2020.R
 Data: arnedillo2020_db.csv
 
