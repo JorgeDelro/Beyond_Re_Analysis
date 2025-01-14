@@ -11,6 +11,11 @@ Code: aragonvela2010.R
 * Gonzalez-Montesinos, JL; Caraballo-Vidal, I; Gomez-Espinosa de los Monteros, R; Fernandez-Santos, J; Roman-Bazan, MA. (2010). Proposal to calculate the maximum elasticity index of lower limbs. *Revista Internacional de Medicina y Ciencias de la Actividad Física y el Deporte*. 10 (39):356-368. http://cdeporte.rediris.es/revista/revista39/artcalculo161.htm
 Code: gonzalezmontesinos2010.R
 
+* Fernandez-Santos, J.R.; Ruiz, J.R.; Cohen, D.D.; Gonzalez-Montesinos, J.L.; Castro-Piñero, J. Reliability and Validity of Tests to Assess Lower-Body Muscular Power in Children. J Strength Cond Res 2015, 29, 2277–2285, https://doi:10.1519/JSC.0000000000000864.
+Factor de impacto (JCR): 1.978
+Code: fernandezsantos2015.R
+Data: lowerbody.RData
+
 * Martinez-Marti, F; Gonzalez-Montesinos, JL; Morales, DP; Santos, JRF; Castro-Piñero, J; Carvajal, MA; Palma AJ. (2016). Validation of Instrumented Insoles for Measuring Height in Vertical Jump. *International Journal of Sport Medicine*. 37(5):374-81. doi: 10.1055/s-0035-1565137.
 Code: martinezmarti2016.R
 Data: martinezmarti2016_db.csv
