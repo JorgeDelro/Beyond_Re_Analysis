@@ -15,6 +15,10 @@ Code: gonzalezmontesinos2010.R
 Code: martinezmarti2016.R
 Data: martinezmarti2016_db.csv
 
+* Arnedillo, A.; Gonzalez-Montesinos, J.L.; Fernandez-Santos, J.R.; Vaz-Pardal, C.; España-Domínguez, C.; Ponce-González, J.G.; Cuenca-García, M. Effects of a Rehabilitation Programme with a Nasal Inspiratory Restriction Device on Exercise Capacity and Quality of Life in COPD. Int J Environ Res Public Health 2020, 17, doi:10.3390/ijerph17103669.
+Code: arnedillo2020.R
+Data: arnedillo2020_db.csv
+
 * Fernandez-Santos, JR; Gutierrez-Manzanedo, JV; Arroyo-Garcia, P; Izquierdo-Jurado, J; Gonzalez-Montesinos, JL. (2022). Potential Energy as an Alternative for Assessing Lower Limb Peak Power in Children: A Bayesian Hierarchical Analysis. *International Journal of Environmental Research and Public Health*. 19, 6300. https://doi.org/10.3390/ijerph19106300
 Code: fernandezsantos2022.R
 Data: fernandezsantos2022_db.csv
